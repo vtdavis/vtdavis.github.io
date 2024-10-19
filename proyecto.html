@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Portafolio Web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- --- -Inicio ---CTRL K+C -->
+<section id="inicio">
+    <div class="contenido">
+        <header>
+            <div class="contenido-header">
+                <h1>/LP</h1>
+                <nav id="nav" class="">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                        <li><a href="#sobremi"  onclick="seleccionar(this)"> SOBRE MI</a></li>
+                        <li><a href="#portafolio"  onclick="seleccionar(this)">PROYECTOS</a></li>
+                        <li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
+                        <li><a href="#contacto" onclick="seleccionar(this)">CONTACTOS</a></li>
+                    </ul>
+                </nav>
+                <!-- ---ICONO DEL MENU RESPOSIVE---- -->
+                 <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                 </div>
+
+                 <div>
+                    <!-- iconos de las redes sociales -->
+                     <div class="redes">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                     </div>
+                 </div>
+        </header>
+        <div class="presentacion">
+            <p class="bienvenido">Bienvenidos</p>
+            <h2>Soy <span>Davis Vera</span>, Desarrollador Web</h2>
+            <p class="descripcion">Medir el progreso de la programación por líneas de código es como medir el progreso en la construcción de aviones por el peso.  </p>
+            <a href="#portafolio"> Ir a Portafolio</a>
+        </div>
+    </div>
+
+</section>
+  <!-- Seccion sobre mi -->
+  <section id="sobremi">
+    <div class="contenedor-foto">
+        <img src="D:\Documento\PYTHON PROGRAMA\Python Idle\4nivel\avance\avance\imagenes\Imagen perfil.jpg"  alt="">
+    </div> 
+    <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy <span>Davis Vera</span></h2>
+        <h3>Desarrollador Web</h3>
+        <p>saludos cordiales, mi fortaleza es de aprendizaje rapido en el ambiente laboral, a demas de una personalidad segura y confiable,</p>
+        <p>mi objetivo profesional con lleva de ser agradable a los usuario con mi trabajo, ¿Cómo lo logro? personalidad, educación, profesionalimos y detallista al momento de presentar proyectos </p>
+        <a href="#">Descargar CV</a>
+        
+    </div>
+</section>
+<!--  seccion servicios--> 
+
+<!--  -->
+<!-- <section id="">
+    <h3 class="titulo-seccion">Mis servicios</h3>
+    <div class="fila">
+        <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de sitios web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi fuga eum praesentium. Accusantium similique, odit ad iste magni, recusandae quod quis quasi aut eum in exercitationem
+                 culpa sint commodi.</P>
+        </div>
+        <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de sitios web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi fuga eum praesentium. Accusantium similique, odit ad iste magni, recusandae quod quis quasi aut eum in exercitationem
+                 culpa sint commodi.</P>
+        </div>
+        <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de sitios web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi fuga eum praesentium. Accusantium similique, odit ad iste magni, recusandae quod quis quasi aut eum in exercitationem
+                 culpa sint commodi.</P>
+        </div>  
+    </div>
+    <div class="fila">
+        <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de sitios web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi fuga eum praesentium. Accusantium similique, odit ad iste magni, recusandae quod quis quasi aut eum in exercitationem
+                 culpa sint commodi.</P>
+        </div>
+        <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de sitios web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi fuga eum praesentium. Accusantium similique, odit ad iste magni, recusandae quod quis quasi aut eum in exercitationem
+                 culpa sint commodi.</P>
+        </div>
+        <div class="servicios">
+            <span class="icono"><i class="fa-solid fa-code"></i></span>
+            <h4>Diseño de sitios web</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Web</li>
+                <li>Graphic</li>
+                <li>SEO</li>
+            </ul>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi fuga eum praesentium. Accusantium similique, odit ad iste magni, recusandae quod quis quasi aut eum in exercitationem
+                 culpa sint commodi.</P>
+        </div>  
+    </div>
+</section>  -->
+<section id="portafolio">
+    <h3 class="titulo-seccion">Mis Proyectos</h3>
+    <div class="filas">
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/corporative-start-up-landing-page_23-2148279896.jpg?semt=ais_hybrid" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/005/766/976/small_2x/creative-landing-page-design-template-boost-your-business-illustration-free-vector.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/grow-your-business-landing-page_23-2148288918.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filas">
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/premium-vector/boost-your-business-landing-page_120451-33.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/business-landing-page-template_23-2148303887.jpg?t=st=1724007365~exp=1724010965~hmac=c7e49c331cbf2f2ba1b511951d5e2d6ec74f32270f678c8b728a36c05802af00" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/landing-page-template-business_23-2148237521.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filas">
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/business-landing-page-with-information_23-2148299930.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/best-services-business-landing-page_23-2148307749.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/business-team-landing-page_23-2148279358.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+<!-- seccion de habilidades -->
+<section id="habilidades">
+ <div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Htmal & Css</p>
+            <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+            <div id="html" class="barra-progreso1"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p><span class="lista"></span>Javascrip</p>
+            <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+            <div id="js" class="barra-progreso2"></div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso3"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+ </div>
+</section>
+<!-- seccion portafolio 
+ <section id="portafolio">
+    <h3 class="titulo-seccion">Mis Proyectos</h3>
+    <div class="filas">
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/corporative-start-up-landing-page_23-2148279896.jpg?semt=ais_hybrid" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/005/766/976/small_2x/creative-landing-page-design-template-boost-your-business-illustration-free-vector.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/grow-your-business-landing-page_23-2148288918.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filas">
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/premium-vector/boost-your-business-landing-page_120451-33.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/business-landing-page-template_23-2148303887.jpg?t=st=1724007365~exp=1724010965~hmac=c7e49c331cbf2f2ba1b511951d5e2d6ec74f32270f678c8b728a36c05802af00" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/landing-page-template-business_23-2148237521.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filas">
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/business-landing-page-with-information_23-2148299930.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/best-services-business-landing-page_23-2148307749.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay">
+                <img src="https://img.freepik.com/free-vector/business-team-landing-page_23-2148279358.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Poryecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- seccion de Contactos -->
+ 
+ <!-- seccion de contactos -->
+ <section id = "contacto" >
+    <h3 class="titulo-seccion">Contactanos Ahora</h3>
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre completo" class="input-mitad">
+                <input type="text" placeholder="Direccion de Email" class="input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Tema..." class="input-full">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Mensaje" class="bt-enviar">
+        </form>
+    </div>
+  </section>
+  <!-- seccion footer -->
+  <footer>
+    <p>todos los derechos reservados - 2024 DvT / dfvera4@itb.edu.ec</p>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+     </div>
+</footer>
+   <script src="scrip.js"></script>
+</body>
+</html>
